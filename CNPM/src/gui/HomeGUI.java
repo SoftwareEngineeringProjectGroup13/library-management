@@ -446,12 +446,12 @@ public class HomeGUI extends JFrame implements ActionListener {
 
 		if (e.getSource() == btnManageEmployee) {
 			setVisible(false);
-//			new QLNV_GUI();
+			new QLNV_GUI();
 		}
 
 		if (e.getSource() == btnManageMember) {
 			setVisible(false);
-//			new QLKH_GUI();
+			new QLKH_GUI();
 		}
 	}
 }
